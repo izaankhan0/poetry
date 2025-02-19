@@ -13,58 +13,15 @@ export default function App() {
       </div>
 
       <div className="mid">
-      <div className="left">
-
+        <h2>My Poetry Page</h2>
+        <p>"Letting out feelings in the disguise of poems"</p>
       </div>
-      <img className="sketch" src={sketch} alt="" />
-        <div className="right">
-
-          <h2>IZAAN KHAN</h2>
-          <p>"I let out feelings in the disguise of poems; never otherwise"</p>
-        </div>
-      </div>
-
+      <h3>by yours truely</h3>
       <div className="card-grid">
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
-        <Card
-          title="Title One"
-          description="Lorem ipsum"
-          bgc="rgb(187, 72, 0, 0.9)"
-        />
+        <Card title="Title One" description="Lorem ipsum" bgc="#0b012e" />
+        <Card title="Title One" description="Lorem ipsum" bgc="#0b012e" />
+        <Card title="Title One" description="Lorem ipsum" bgc="#0b012e" />
+        <Card title="Title One" description="Lorem ipsum" bgc="#0b012e" />
       </div>
     </div>
   );

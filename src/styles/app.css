@@ -1,100 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background-color: beige;
-    background-image: url(../assets/bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .bg {
-    position: absolute;
-    top: 0.1px;
-    left: 0.1px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
-    z-index: -1;
-  }
-  
-  .nav > h1 {
-    font-family: "Germania One", serif;
-    font-weight: 400;
-    font-size: 40pt;
-    margin: 7px 20px;
-    color: rgb(22, 22, 22);
-    z-index: 1;
-    position: relative;
-    text-align: start;
-  }
-  
-  .card-grid {
-    margin: 0px 40px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-  }
-  
-  .portfolio {
-    height: 40px;
-    padding: 6px 20px;
-    margin: 0px 24px;
-    font-size: 16pt;
-    font-weight: 500;
-    background-color: black;
-    color: white;
-    border: none;
-    font-family: "Libre Franklin", serif;
-    border-radius: 5px;
-    cursor: pointer;
-    border: 3px solid white;
-    transition: 200ms ease;
-  }
-  .portfolio:hover {
-    background-color: white;
-    color: black;
-    border: 3px solid black;
-  }
-  
-  .mid{
-    overflow: hidden;
-    height: 400px;
-    background-image: url(../assets/mid-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  .right > h2{
-    font-size: 50pt;
-    font-family: "Poppins", serif;
-    color: rgb(73, 46, 0);
-  }
-  .right > p{
-    font-family: "Poppins", serif;
-    font-size: 22pt;
-    font-weight: 500;
-  }
-  .right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .sketch{
-    height: 400px;
+body {
+  background-color: beige;
+}
+
+.bg {
+  position: absolute;
+  top: 0.1px;
+  left: 0.1px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.nav > h1 {
+  font-family: "Germania One", serif;
+  font-weight: 400;
+  font-size: 40pt;
+  margin: 7px 20px;
+  color: white;
+  z-index: 1;
+  position: relative;
+  text-align: start;
+}
+
+.card-grid {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #291200;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #291200;
+}
+
+.portfolio {
+  height: 40px;
+  padding: 6px 20px;
+  margin: 0px 24px;
+  font-size: 16pt;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  border: none;
+  font-family: "Libre Franklin", serif;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid white;
+  transition: 200ms ease;
+}
+.portfolio:hover {
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+
+.mid {
+  overflow: hidden;
+  height: 400px;
+  background-image: url(../assets/mid-bg4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.mid > h2 {
+  font-size: 62pt;
+  font-family: "Poppins", serif;
+  color: #291200;
+}
+.mid > p {
+  font-family: "Poppins", serif;
+  font-size: 22pt;
+  font-weight: 700;
+  color: #130800;
+}
+
+.sketch {
+  height: 400px;
+}
+
+h3 {
+  background-color: #291200;
+  font-family: "Germania One", serif;
+  font-weight: 400;
+  font-size: 40pt;
+  color: white;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding: 20px 0px;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .mid > h2 {
+    font-size: 42pt;
+    text-align: center;
   }
+  .mid > p {
+    font-size: 15pt;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .portfolio{
+    display: none;
+  }
+  .nav{
+    justify-content: center;
+  }
+  .mid > h2 {
+    font-size: 30pt;
+  }
+  .card-grid{
+    padding: 0px;
+  }
+}
