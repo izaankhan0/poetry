@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/app.css";
-import Card from "./components/Card";
+import Card from "./components/cardard";
 import Poem from "./pages/poem";
 
 function Home() {
