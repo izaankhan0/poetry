@@ -18,6 +18,9 @@
     font-size: 30pt;
     font-family: "Germania One", serif;
     font-weight: 400;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .Card > p {
     color: beige;

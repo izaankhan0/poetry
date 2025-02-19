@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+.poem{
+    background-color: black;
+    min-height: 800px;
+    overflow: hidden;
+}
+
+.top > h1{
+    font-size: 20pt;
+    font-family: "Poppins", serif;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    bottom: 60px;
+}
+
+.top > h2{
+    font-size: 47pt;
+    font-family: "Poppins", serif;
+    color: rgb(207, 207, 207);
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    font-weight: 800;
+}
+
+.poem > img{
+    min-width: 100vw;
+    /* width: 100%; */
+    height: 100%;
+    position: fixed;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.top > button{
+    font-size: 14pt;
+    padding: 10px 40px;
+    align-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-family: "Poppins", serif;
+    transition: 200ms ease;
+    font-weight: 600;
+    border: solid rgb(0, 0, 0) 5px;
+    background-color: black;
+    color: white;
+}
+
+.top > button:hover{
+    border: solid rgb(255, 255, 255) 5px;
+    background-color: white;
+    color: black;
+}
+
+.box{
+    z-index: 1;
+    position: relative;
+    bottom: 70px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0px 70px;
+    padding: 20px 40px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    opacity: 0.85;
+}
+.foot > img{
+    height: 100px;
+}
+.foot > p{
+    font-size: 22pt;
+    line-height: 2px;
+    font-family: "Playwrite DE Grund", serif;
+font-weight: 800;
+position: relative;
+z-index: 1;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+  
+
+.poem-txt {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 30px 0px;
+}
+
+.left {
+    text-align: left;
+    margin-left: 0;
+    font-family: "Playwrite DE Grund", serif;
+    font-size: 22pt;
+}
+
+.right {
+    text-align: right;
+    margin-left: auto;
+    font-family: "Playwrite DE Grund", serif;
+    font-size: 22pt;
+}
+.gap {
+    height: 30px;
+}
+
+.poem-txt > p {
+    font-size: 1.8rem; /* Default for large screens */
+}
+
+@media (max-width: 1024px) {
+    .poem-txt > p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .poem-txt > p {
+        font-size: 1.2rem;
+    }
+    .box{
+        margin: 0px 20px;
+        bottom: 0px;
+        padding: 4px 20px;
+    }
+    .top > h1{
+        bottom: 0px;
+    }
+    .top > h2{
+        bottom: 14px;
+        font-size: 36pt;
+    }
+    .top > button{
+        align-self: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .poem-txt {
+        line-height: 1.5rem;
+        gap: 1px;
+    }
+    .gap{
+        height: 40px;
+    }
+    .poem-txt > p {
+        font-size: 0.9rem;
+    }
+    .top > h1{
+        bottom: 0px;
+    }
+    .top > h2{
+        bottom: 5px;
+        font-size: 28pt;
+    }
+    .foot > p{
+        font-size: 14pt;
+    }
+}
