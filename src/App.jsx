@@ -18,7 +18,7 @@ function Home() {
       <div className="nav">
         <h1>College Poet</h1>
         <a href="#">
-          <button className="portfolio">Portfolio</button>
+          {/* <button className="portfolio">Portfolio</button> */}
         </a>
       </div>
 
