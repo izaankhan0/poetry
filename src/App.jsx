@@ -268,6 +268,7 @@ To a reality called fate, it was sold.`}
 
                 Dil ka dushmun bhi unko keh raha hun jinko dil ka rasta dikhaya tha,
                 Kabhi Socha na thaa keh, unki khaamoshiyon ne bhi is dil ko kis qadar rulana thaa
+                
                 Ya shayad aisa zindagi mein hota hi nahi,
                 Shayad yeh ummideen, mere Dil ka ek jhoota fasana tha.`}
               alignments={[
@@ -277,7 +278,9 @@ To a reality called fate, it was sold.`}
                 "",               
                 "left", "left",
                 "",               
-                "right", "right", "right", "right"
+                "right", "right",
+                "",               
+                "left", "left",
               ]}
         />
           }
@@ -340,7 +343,13 @@ To a reality called fate, it was sold.`}
                     I tried hard, but couldn't get them to depart
 
                     In the end all I could do is hide them behind a smile,
-                    Kept gathering in my heart in a huge pile.`}
+                    Kept gathering in my heart in a huge pile.
+
+                    But maybe that's how life is, a memory bound to fade,
+                    Or maybe this heart will be turned into a cascade,
+
+                    Maybe these emotions buried deep in my heart,
+                    Will come out from their shade, and tell life and death apart`}
               alignments={[           
                 "left", "left",  
                 "",               
@@ -349,6 +358,10 @@ To a reality called fate, it was sold.`}
                 "left", "left",
                 "",               
                 "right", "right", "right",
+                "",               
+                "left", "left",
+                "",               
+                "right", "right",
                 "",               
                 "left", "left",
               ]}
