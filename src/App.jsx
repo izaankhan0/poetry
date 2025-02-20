@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/app.css";
 
 import Card from "./components/card";
+import cardBg0 from "./assets/card-bg-0.png";
 import cardBg1 from "./assets/card-bg-1.png";
 import cardBg2 from "./assets/card-bg-2.png";
 import cardBg3 from "./assets/card-bg-3.png";
@@ -27,58 +28,65 @@ function Home() {
         <p>"Letting out feelings in the disguise of poems"</p>
       </div>
       <div className="card-grid">
-        <Card
-          title="Walking In The Rain"
-          description="August 2, 2023"
-          img={cardBg1}
-          link="/poem1"
-        />
-        <Card
-          title="Love - A Crime?"
-          description="August 25, 2023"
-          img={cardBg2}
-          link="/poem2"
-        />
-        <Card
-          title="Fading Echoes of Love"
-          description="August 26, 2023"
-          img={cardBg3}
-          link="/poem3"
-        />
-        <Card
-          title="Triumph or Misfortune?"
-          description="September 29, 2023"
-          img={cardBg4}
-          link="/poem4"
-        />
-        <Card
-          title="So much for Nothing"
-          description="October 14, 2023"
-          img={cardBg5}
-          link="/poem6"
-        />
-        <Card
-          title="Umeedeen? ya Delusions?"
-          description="February 18, 2024"
-          img={cardBg6}
-          link="/poem5"
-        />
-        <Card
-          title="Everyone's Only Human"
-          description="May 10, 2024"
-          img={cardBg7}
-          link="/poem7"
-        />
-        <Card
-          title="Mental Warfare"
-          description="July 28, 2024"
-          img={cardBg8}
-          link="/poem8"
-        />
+      <Card
+        title="Mental Warfare"
+        description="July 28, 2024"
+        img={cardBg8}
+        link="/poem8"
+      />
+      <Card
+        title="Everyone's Only Human"
+        description="May 10, 2024"
+        img={cardBg7}
+        link="/poem7"
+      />
+      <Card
+        title="Umeedeen? ya Delusions?"
+        description="February 18, 2024"
+        img={cardBg6}
+        link="/poem5"
+      />
+      <Card
+        title="So much for Nothing"
+        description="October 14, 2023"
+        img={cardBg5}
+        link="/poem6"
+      />
+      <Card
+        title="Triumph or Misfortune?"
+        description="September 29, 2023"
+        img={cardBg4}
+        link="/poem4"
+      />
+      <Card
+        title="Fading Echoes of Love"
+        description="August 26, 2023"
+        img={cardBg3}
+        link="/poem3"
+      />
+      <Card
+        title="Love - A Crime?"
+        description="August 25, 2023"
+        img={cardBg2}
+        link="/poem2"
+      />
+      <Card
+        title="Walking In The Rain"
+        description="August 2, 2023"
+        img={cardBg1}
+        link="/poem1"
+      />
+      <Card
+        title="Empty Hallways"
+        description="September 10, 2022"
+        img={cardBg0}
+        link="/poem0"
+      />
 
-      <h3>by yours truly - Izaan</h3>
+
 
       </div>
+      <h3>by yours truly - Izaan</h3>
     </div>
   );
 }
@@ -371,6 +379,37 @@ To a reality called fate, it was sold.`}
               You will discover a lot once you're in your mind, you'll discover what it feels like to be truly alone.`}
               alignments={[           
                 "left", "left", "left",  
+                "",               
+                "right", "right",
+                "",               
+                "left", "left",
+                "",               
+                "right", "right",
+              ]}
+        />
+          }
+        />
+
+          <Route
+          path="/poem0"
+          element={
+            <Poem
+              title="Empty Hallways"
+              date="September 10, 2022"
+              author="Izaan </3"
+              poem={`a hectic decision had finally been taken,
+                when I decided on a college about which I knew none,
+
+              stumbling across its massive hallways,
+              with very little to no work done
+
+              sick to the stomach and wanting to leave,
+              my first days were in no way fun
+
+              but time passes as it always does,
+              what else could have been done?`}
+              alignments={[           
+                "left", "left",  
                 "",               
                 "right", "right",
                 "",               
