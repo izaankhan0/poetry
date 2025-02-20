@@ -73,6 +73,7 @@
     background-color: black;
     border-radius: 10px;
     margin: 0px 70px;
+    margin-bottom: 20px;
     padding: 20px 40px;
     min-height: 600px;
     display: flex;
@@ -123,12 +124,24 @@ z-index: 1;
     font-family: "Playwrite DE Grund", serif;
     font-size: 22pt;
 }
+
+.center {
+    text-align: center;
+    font-family: "Playwrite DE Grund", serif;
+    font-size: 22pt;
+}
 .gap {
     height: 30px;
 }
 
 .poem-txt > p {
     font-size: 1.8rem; /* Default for large screens */
+}
+
+@media (min-width: 1024px) {
+    .poem-txt {
+        line-height: 2rem;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -145,6 +158,8 @@ z-index: 1;
         margin: 0px 20px;
         bottom: 0px;
         padding: 4px 20px;
+        margin-bottom: 20px;
+
     }
     .top > h1{
         bottom: 0px;

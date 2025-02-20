@@ -8,7 +8,11 @@ export default function Card(props) {
   return (
     <div
       className="Card"
-      style={{ backgroundColor: props.bgc, cursor: "pointer" }}
+      style={{
+        backgroundColor: props.bgc,
+        cursor: "pointer",
+        backgroundImage: `url(${props.img})`,
+      }}
       onClick={() => navigate(props.link)}
     >
       <h1>{props.title}</h1>
