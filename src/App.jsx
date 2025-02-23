@@ -11,6 +11,7 @@ import cardBg5 from "./assets/card-bg-5.png";
 import cardBg6 from "./assets/card-bg-6.png";
 import cardBg7 from "./assets/card-bg-7.png";
 import cardBg8 from "./assets/card-bg-8.png";
+import cardBg9 from "./assets/card-bg-9.png";
 import Poem from "./pages/poem";
 
 function Home() {
@@ -28,6 +29,12 @@ function Home() {
         <p>"Letting out feelings in the disguise of poems"</p>
       </div>
       <div className="card-grid">
+      <Card
+        title="Invisible Screams"
+        description="Febuary 23, 2025"
+        img={cardBg9}
+        link="/poem9"
+      />
       <Card
         title="Mental Warfare"
         description="July 28, 2024"
@@ -429,6 +436,60 @@ To a reality called fate, it was sold.`}
                 "left", "left",
                 "",               
                 "right", "right",
+              ]}
+        />
+          }
+        />
+
+
+          <Route
+          path="/poem9"
+          element={
+            <Poem
+              title="Invisible Screams"
+              date="Febuary 23, 2025"
+              author="Izaan at 5:30am"
+              poem={`Surrounded by darkness, I sit still & breathe,
+                    lit my mind ablaze, a web of frustration it weaved
+
+                    Just depart and leave, the feeling of dread,
+                    no one to hear my silence, the emptiness said
+
+                    Is it this silent? my frustration and screams,
+                    my dear ones, my friends and those I thought close,
+                    I fear this becomes one of my biggest dreams,
+                    to see someone come and get me a rose,
+                    but will it be enough of a dose?
+                    or will I stand still and not breathe?
+                    or will trauma cause me to not get close?
+
+                    I fear and keep fearing but thats all I can do,
+                    staying away from temptations and an infested societal flu,
+                    there doesn’t seem to be a right way of which I have a clue
+
+                    Screams so loud, only audible to me,
+                    but nothing else to do but to bleed and to see
+
+                    Better than doing something to displease my lord,
+                    atleast I'm not bleeding on satan’s accord
+
+                    Paths will be paved, prostrations will be made,
+                    all costs of these screams and patience,
+                    will indeed be paid.`}
+              alignments={[           
+                "left", "left",  
+                "",               
+                "right", "right",
+                "",               
+                "left", "left", "left", "left", "left", "left", "left",
+                "",               
+                "right", "right", "right",
+                "", 
+                "left", "left",  
+                "",               
+                "right", "right",
+                "",
+                "left", "left", "left",
               ]}
         />
           }
